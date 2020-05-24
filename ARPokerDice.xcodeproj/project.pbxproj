@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF62A55C24728D2200BB4811 /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62A55824728D2200BB4811 /* GameUtils.swift */; };
+		BF62A55D24728D2200BB4811 /* SCNVector3+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62A55924728D2200BB4811 /* SCNVector3+Extension.swift */; };
+		BF62A55E24728D2200BB4811 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62A55A24728D2200BB4811 /* Generics.swift */; };
+		BF62A55F24728D2200BB4811 /* Random+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62A55B24728D2200BB4811 /* Random+Extension.swift */; };
+		BF86B5A4246E8ACD0076A4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86B5A3246E8ACD0076A4FA /* AppDelegate.swift */; };
+		BF86B5A8246E8ACD0076A4FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86B5A7246E8ACD0076A4FA /* ViewController.swift */; };
+		BF86B5AB246E8ACD0076A4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF86B5A9246E8ACD0076A4FA /* Main.storyboard */; };
+		BF86B5AD246E8AD00076A4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86B5AC246E8AD00076A4FA /* Assets.xcassets */; };
+		BF86B5B0246E8AD00076A4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF86B5AE246E8AD00076A4FA /* LaunchScreen.storyboard */; };
+		BF86B5BB246E8AD00076A4FA /* ARPokerDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86B5BA246E8AD00076A4FA /* ARPokerDiceTests.swift */; };
+		BF86B5C6246E98480076A4FA /* PokerDice.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86B5C5246E98480076A4FA /* PokerDice.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF86B5B7246E8AD00076A4FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF86B598246E8ACD0076A4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF86B59F246E8ACD0076A4FA;
+			remoteInfo = ARPokerDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF62A55824728D2200BB4811 /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		BF62A55924728D2200BB4811 /* SCNVector3+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extension.swift"; sourceTree = "<group>"; };
+		BF62A55A24728D2200BB4811 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		BF62A55B24728D2200BB4811 /* Random+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Random+Extension.swift"; sourceTree = "<group>"; };
+		BF86B5A0246E8ACD0076A4FA /* ARPokerDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPokerDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF86B5A3246E8ACD0076A4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF86B5A7246E8ACD0076A4FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF86B5AA246E8ACD0076A4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF86B5AC246E8AD00076A4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF86B5AF246E8AD00076A4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF86B5B1246E8AD00076A4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF86B5B6246E8AD00076A4FA /* ARPokerDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPokerDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF86B5BA246E8AD00076A4FA /* ARPokerDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPokerDiceTests.swift; sourceTree = "<group>"; };
+		BF86B5BC246E8AD00076A4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF86B5C5246E98480076A4FA /* PokerDice.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = PokerDice.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF86B59D246E8ACD0076A4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF86B5B3246E8AD00076A4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF62A55724728D2200BB4811 /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BF62A55824728D2200BB4811 /* GameUtils.swift */,
+				BF62A55924728D2200BB4811 /* SCNVector3+Extension.swift */,
+				BF62A55A24728D2200BB4811 /* Generics.swift */,
+				BF62A55B24728D2200BB4811 /* Random+Extension.swift */,
+			);
+			path = GameUtils;
+			sourceTree = "<group>";
+		};
+		BF86B597246E8ACD0076A4FA = {
+			isa = PBXGroup;
+			children = (
+				BF86B5A2246E8ACD0076A4FA /* ARPokerDice */,
+				BF86B5B9246E8AD00076A4FA /* ARPokerDiceTests */,
+				BF86B5A1246E8ACD0076A4FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF86B5A1246E8ACD0076A4FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF86B5A0246E8ACD0076A4FA /* ARPokerDice.app */,
+				BF86B5B6246E8AD00076A4FA /* ARPokerDiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF86B5A2246E8ACD0076A4FA /* ARPokerDice */ = {
+			isa = PBXGroup;
+			children = (
+				BF86B5C5246E98480076A4FA /* PokerDice.scnassets */,
+				BF62A55724728D2200BB4811 /* GameUtils */,
+				BF86B5A3246E8ACD0076A4FA /* AppDelegate.swift */,
+				BF86B5A7246E8ACD0076A4FA /* ViewController.swift */,
+				BF86B5A9246E8ACD0076A4FA /* Main.storyboard */,
+				BF86B5AC246E8AD00076A4FA /* Assets.xcassets */,
+				BF86B5AE246E8AD00076A4FA /* LaunchScreen.storyboard */,
+				BF86B5B1246E8AD00076A4FA /* Info.plist */,
+			);
+			path = ARPokerDice;
+			sourceTree = "<group>";
+		};
+		BF86B5B9246E8AD00076A4FA /* ARPokerDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF86B5BA246E8AD00076A4FA /* ARPokerDiceTests.swift */,
+				BF86B5BC246E8AD00076A4FA /* Info.plist */,
+			);
+			path = ARPokerDiceTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF86B59F246E8ACD0076A4FA /* ARPokerDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF86B5BF246E8AD00076A4FA /* Build configuration list for PBXNativeTarget "ARPokerDice" */;
+			buildPhases = (
+				BF86B59C246E8ACD0076A4FA /* Sources */,
+				BF86B59D246E8ACD0076A4FA /* Frameworks */,
+				BF86B59E246E8ACD0076A4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARPokerDice;
+			productName = ARPokerDice;
+			productReference = BF86B5A0246E8ACD0076A4FA /* ARPokerDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF86B5B5246E8AD00076A4FA /* ARPokerDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF86B5C2246E8AD00076A4FA /* Build configuration list for PBXNativeTarget "ARPokerDiceTests" */;
+			buildPhases = (
+				BF86B5B2246E8AD00076A4FA /* Sources */,
+				BF86B5B3246E8AD00076A4FA /* Frameworks */,
+				BF86B5B4246E8AD00076A4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF86B5B8246E8AD00076A4FA /* PBXTargetDependency */,
+			);
+			name = ARPokerDiceTests;
+			productName = ARPokerDiceTests;
+			productReference = BF86B5B6246E8AD00076A4FA /* ARPokerDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF86B598246E8ACD0076A4FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Thibaut Coutard";
+				TargetAttributes = {
+					BF86B59F246E8ACD0076A4FA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BF86B5B5246E8AD00076A4FA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BF86B59F246E8ACD0076A4FA;
+					};
+				};
+			};
+			buildConfigurationList = BF86B59B246E8ACD0076A4FA /* Build configuration list for PBXProject "ARPokerDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF86B597246E8ACD0076A4FA;
+			productRefGroup = BF86B5A1246E8ACD0076A4FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF86B59F246E8ACD0076A4FA /* ARPokerDice */,
+				BF86B5B5246E8AD00076A4FA /* ARPokerDiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF86B59E246E8ACD0076A4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86B5C6246E98480076A4FA /* PokerDice.scnassets in Resources */,
+				BF86B5B0246E8AD00076A4FA /* LaunchScreen.storyboard in Resources */,
+				BF86B5AD246E8AD00076A4FA /* Assets.xcassets in Resources */,
+				BF86B5AB246E8ACD0076A4FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF86B5B4246E8AD00076A4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF86B59C246E8ACD0076A4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86B5A8246E8ACD0076A4FA /* ViewController.swift in Sources */,
+				BF62A55C24728D2200BB4811 /* GameUtils.swift in Sources */,
+				BF62A55E24728D2200BB4811 /* Generics.swift in Sources */,
+				BF86B5A4246E8ACD0076A4FA /* AppDelegate.swift in Sources */,
+				BF62A55F24728D2200BB4811 /* Random+Extension.swift in Sources */,
+				BF62A55D24728D2200BB4811 /* SCNVector3+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF86B5B2246E8AD00076A4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86B5BB246E8AD00076A4FA /* ARPokerDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF86B5B8246E8AD00076A4FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF86B59F246E8ACD0076A4FA /* ARPokerDice */;
+			targetProxy = BF86B5B7246E8AD00076A4FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF86B5A9246E8ACD0076A4FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF86B5AA246E8ACD0076A4FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF86B5AE246E8AD00076A4FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF86B5AF246E8AD00076A4FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF86B5BD246E8AD00076A4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF86B5BE246E8AD00076A4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF86B5C0246E8AD00076A4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKVV2YW742;
+				INFOPLIST_FILE = ARPokerDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thibautc.ARPokerDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF86B5C1246E8AD00076A4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKVV2YW742;
+				INFOPLIST_FILE = ARPokerDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thibautc.ARPokerDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF86B5C3246E8AD00076A4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKVV2YW742;
+				INFOPLIST_FILE = ARPokerDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thibautc.ARPokerDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPokerDice.app/ARPokerDice";
+			};
+			name = Debug;
+		};
+		BF86B5C4246E8AD00076A4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CKVV2YW742;
+				INFOPLIST_FILE = ARPokerDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thibautc.ARPokerDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPokerDice.app/ARPokerDice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF86B59B246E8ACD0076A4FA /* Build configuration list for PBXProject "ARPokerDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF86B5BD246E8AD00076A4FA /* Debug */,
+				BF86B5BE246E8AD00076A4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF86B5BF246E8AD00076A4FA /* Build configuration list for PBXNativeTarget "ARPokerDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF86B5C0246E8AD00076A4FA /* Debug */,
+				BF86B5C1246E8AD00076A4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF86B5C2246E8AD00076A4FA /* Build configuration list for PBXNativeTarget "ARPokerDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF86B5C3246E8AD00076A4FA /* Debug */,
+				BF86B5C4246E8AD00076A4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF86B598246E8ACD0076A4FA /* Project object */;
+}
